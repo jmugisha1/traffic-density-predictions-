@@ -45,3 +45,7 @@ Model 4 achieved the highest validation accuracy (97.06%) with the lowest valida
 - Data preprocessing (standardization for numerical features, one-hot encoding for categorical features) significantly improved model performance
 
 This traffic prediction system can be integrated with existing technologies in Rwanda to optimize traffic flow, reduce congestion, and improve urban mobility.
+
+
+###video link
+https://www.youtube.com/watch?v=TU8Bd3gZG3c
