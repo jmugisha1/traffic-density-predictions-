@@ -15,6 +15,15 @@ The project uses a traffic dataset ([`traffic/Traffic.csv`](traffic/Traffic.csv 
 | Model 3 | RMSprop | No | L1L2 | 0.9382 | 0.9496 | 0.3112 | 0.2672 |
 | Model 4 | Default | No | L1L2 | 0.9388 | 0.9706 | 0.3018 | 0.2594 |
 
+## Detailed Model Metrics
+
+| Training Instance | Optimizer Used | Regularizer Used | Epochs | Early Stopping | Number of Layers | Learning Rate | Accuracy | F1 Score |
+|-------------------|----------------|------------------|--------|---------------|-----------------|--------------|----------|----------|
+| Instance 1 | Adam | L1L2 (0.001, 0.001) | 100 | Yes (patience=15) | 3 | 0.002 | 0.9636 | 0.9530 |
+| Instance 2 | Adam | L1L2 (0.001, 0.001) | 100 | No | 3 | 0.002 | 0.9524 | 0.9597 |
+| Instance 3 | RMSprop | L1L2 (0.001, 0.001) | 100 | No | 3 | 0.002 | 0.9496 | 0.9413 |
+| Instance 4 | Default (SGD) | L1L2 (0.001, 0.001) | 100 | No | 3 | Default | 0.9706 | 0.9547 |
+
 ## Findings
 
 The neural network architecture consisted of:
